@@ -9,8 +9,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.sigmaray.helloworld.MainActivity">
 
-    <TextView
+    <Button
+        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Show Message"
+        android:id="@+id/buttonShowMessage"
+        android:layout_above="@+id/buttonClose"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="106dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:id="@+id/buttonClose"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="147dp" />
 </RelativeLayout>
