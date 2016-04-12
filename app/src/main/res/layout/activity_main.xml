@@ -15,9 +15,9 @@
         android:layout_height="wrap_content"
         android:text="Show Message"
         android:id="@+id/buttonShowMessage"
-        android:layout_above="@+id/buttonClose"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="106dp" />
+        android:layout_marginTop="57dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -25,7 +25,27 @@
         android:text="Close"
         android:id="@+id/buttonClose"
         style="?android:attr/buttonStyleSmall"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/buttonShowMessage"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="147dp" />
+        android:layout_marginTop="52dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Music"
+        android:id="@+id/buttonPlay"
+        android:layout_marginTop="88dp"
+        android:layout_below="@+id/buttonClose"
+        android:layout_toLeftOf="@+id/buttonShowMessage"
+        android:layout_toStartOf="@+id/buttonShowMessage" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Music"
+        android:id="@+id/buttonStop"
+        android:layout_alignTop="@+id/buttonPlay"
+        android:layout_toRightOf="@+id/buttonShowMessage"
+        android:layout_toEndOf="@+id/buttonShowMessage" />
+
 </RelativeLayout>
