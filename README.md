@@ -7,4 +7,6 @@ Functionality:
 * Play music by clicking button
 * Exit application by clicking button
 
+[Download installer (apk)](https://github.com/sigmaray/android-hello-world/blob/master/releases/v2.apk?raw=true)
+
 ![screenshot](screenshot.png)
